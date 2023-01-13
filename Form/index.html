@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Volunteer Form</title>
+  <link rel="shortcut icon" href="chennai_policelogo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <center><img class="form-group" src="chennai_policelogo.png" alt="" width="210" height="200"></center>
+  <center><h2>Volunteer Information Card</h2></center>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Name</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="">Address</label>
+      <input type="address" class="form-control" id="add" placeholder="Enter Address" name="add">
+    </div>
+	<div class="upload ">
+      <div class="form-group">
+        <label for="formFile" class="form-label">Upload Photo</label>
+        <input class="form-control " type="file" id="formFileMultiple" multiple>
+        </div>
+      </div>
+    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+  </form>
+</div>
+
+</body>
+</html>
