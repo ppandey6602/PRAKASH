@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Volunteer List</title>
+  <link rel="shortcut icon" href="chennaipolicelogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+  var list = document.getElementsByClassName("id");
+  for (var i = 1; i <= list.length; i++) {
+    list[i].innerHTML = i;
+  }
+</script>
+<style>
+table {
+  
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  border:0px;
+}
+
+th{
+  background-color:  #6c7ae0;
+  padding: 10px;
+  color: white;
+
+}
+
+tr:nth-child(even) {
+  background-color:#f8f6ff;
+}
+
+</style>
+</head>
+<body>
+
+<center>
+  <h1>Volunteers List</h1>
+  <img class="form-group" src="chennaipolicelogo.png" alt="" width="210" height="200">
+
+  <div class="wrap">
+    <div class="search">
+       <input type="text" class="searchTerm" placeholder="What are you looking for?">
+       <button type="submit" class="searchButton">
+         <i class="fa fa-search"></i>
+      </button>
+    </div>
+ </div>
+ 
+<br>
+
+<table>
+  <tr>
+    <th><center>ID</center></th>
+    <th><center>Name</center></th>
+    <th><center>Pickup Address</center></th>
+    <th><center>Memo No</center></th>
+    <th><center>NGO Assigned</center></th>
+    <th><center>Upload Image</center></th>
+    <th><center>Controls</center></th>
+
+  </tr>
+  <tr>
+    <td class='id'>i</td>
+    <td>Ram</td>
+    <td>Chrompet</td>
+    <td>12345</td>
+    <td>SRM</td>
+    <td><center><form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" class="btn btn-success"></center></td>
+    <td><center><button type="button" class="btn btn-primary">Edit Details</button>
+    <button type="button" class="btn btn-danger">Send Alert</button></center></td>
+  </tr>
+  <tr>
+    <td class='id'>i</td>
+    <td>Ram</td>
+    <td>Chrompet</td>
+    <td>12345</td>
+    <td>SRM</td>
+    <td><center><form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" class="btn btn-success"></center></td>
+    <td><center><button type="button" class="btn btn-primary">Edit Details</button>
+    <button type="button" class="btn btn-danger">Send Alert</button></center></td>
+  </tr>
+  <tr>
+    <td class='id'>i</td>
+    <td>Ram</td>
+    <td>Chrompet</td>
+    <td>12345</td>
+    <td>SRM</td>
+    <td><center><form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" class="btn btn-success"></center></td>
+    <td><center><button type="button" class="btn btn-primary">Edit Details</button>
+    <button type="button" class="btn btn-danger">Send Alert</button></center></td>
+  </tr>
+  <tr>
+    <td class='id'>i</td>
+    <td>Ram</td>
+    <td>Chrompet</td>
+    <td>12345</td>
+    <td>SRM</td>
+    <td><center><form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" class="btn btn-success"></center></td>
+    <td><center><button type="button" class="btn btn-primary">Edit Details</button>
+    <button type="button" class="btn btn-danger">Send Alert</button></center></td>
+  </tr>
+  <tr>
+    <td class='id'>i</td>
+    <td>Ram</td>
+    <td>Chrompet</td>
+    <td>12345</td>
+    <td>SRM</td>
+    <td><center><form action="/action_page.php">
+      <input type="file" id="myFile" name="filename" class="btn btn-success"></center></td>
+    <td><center><button type="button" class="btn btn-primary">Edit Details</button>
+    <button type="button" class="btn btn-danger">Send Alert</button></center></td>
+  </tr>
+  
+</table>
+</center>
+
+
+
+
+</body>
+</html>
+
